@@ -15773,19 +15773,16 @@ void display()
     glLoadIdentity();
     glPopMatrix();
 
-
-    renderBitmapString(-0.28f, 0.65f, 0.0f, GLUT_BITMAP_HELVETICA_18, "Submitted by Group[1] Code hunter");
+    renderBitmapString(-0.28f, 0.65f, 0.0f, GLUT_BITMAP_HELVETICA_18, "Submitted by Group[L] Code hunter");
     renderBitmapString(-0.4f, 0.5f, 0.0f, GLUT_BITMAP_HELVETICA_18, "ID                                 Name                                         Contribution ");
-    renderBitmapString(-0.4f, 0.4f, 0.0f, GLUT_BITMAP_HELVETICA_18, "19-39385-1                Sazzdul alam Shawon                     25% ");
-    renderBitmapString(-0.4f, 0.3f, 0.0f, GLUT_BITMAP_HELVETICA_18, "18-38939-3                Md. Rifat Hossain                            25% ");
-    renderBitmapString(-0.4f, 0.2f, 0.0f, GLUT_BITMAP_HELVETICA_18, "19-39371-1                Jannatul Ferdus                               19% ");
-    renderBitmapString(-0.4f, 0.1f, 0.0f, GLUT_BITMAP_HELVETICA_18, "19-39500-1                Abdullah al Mahmud                        16% ");
-    renderBitmapString(-0.4f, 0.0f, 0.0f, GLUT_BITMAP_HELVETICA_18, "19-41686-3                Jamil Ahammed                                15% ");
-
+    renderBitmapString(-0.4f, 0.4f, 0.0f, GLUT_BITMAP_HELVETICA_18, "C201242              Farida Nusrat                     60% ");
+    renderBitmapString(-0.4f, 0.3f, 0.0f, GLUT_BITMAP_HELVETICA_18, "C201224          Sabrina Mostary                            40% ");
+      
     renderBitmapString(-0.11f, -0.5f, 0.0f, GLUT_BITMAP_HELVETICA_18, "Submitted to");
-    renderBitmapString(-0.18f, -0.6f, 0.0f, GLUT_BITMAP_HELVETICA_18, "MAHFUJUR RAHAMAN");
-    renderBitmapString(-0.22f, -0.65f, 0.0f, GLUT_BITMAP_HELVETICA_12, "FACULTY OF SCIENCE & TECHNOLOGY");
-    renderBitmapString(-0.2f, -0.7f, 0.0f, GLUT_BITMAP_HELVETICA_10, "American International University-Bangladesh");
+    renderBitmapString(-0.18f, -0.6f, 0.0f, GLUT_BITMAP_HELVETICA_18, "Mrs. Israt Binteh Habib");
+    renderBitmapString(-0.22f, -0.65f, 0.0f, GLUT_BITMAP_HELVETICA_12, " Computer Science and Engineering (CSE)");
+    renderBitmapString(-0.2f, -0.7f, 0.0f, GLUT_BITMAP_HELVETICA_10, "International Islamic University Chittagong-Bangladesh");
+  }
   }
 //vertex01
 //    glLineWidth(1);
@@ -16369,3 +16366,4 @@ int main(int argc, char** argv)
 
     return 0;
 }
+
